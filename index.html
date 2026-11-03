@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TaskFlow</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    <header>
+        <h1 class="title"> TaskFlow </h1>
+        <p id="subtitle"> Organize suas tarefas! </p>
+    </header>
+
+    <main class="container">
+        
+        <div class="actions">
+            <div class="search"> 
+                <span class="search_icon"> 🔍</span>
+                <input type="text" placeholder="Digite sua anotação...">
+            </div>
+        </div>
+        
+        <section class="task-form">
+            
+            <h3> Nova tarefa </h3>
+            
+            <input class="cardtitle" type="text" placeholder="Digite o título da anotação...">
+
+            <div class="task-details">
+
+                <input class= "data" type="date">
+                <input class="hora" type="number" placeholder="Digite quantas horas..." min="1">
+                
+                <select class="status"> 
+                    <option value="false"> Pendente </option>
+                    <option value="true"> Concluído </option>
+                </select>
+            </div>
+
+                <button class="button"> + Nova tarefa </button>
+
+    </section>
+
+    <h3> Suas tarefas</h3>
+
+    <ul>
+        
+    </ul> 
+
+    </main>
+
+    <script src="script.js"></script>
+    </body>
+</html>
